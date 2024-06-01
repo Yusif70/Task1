@@ -78,26 +78,26 @@
 
 #region search position
 
-int[] nums = [1, 2, 3, 4, 5];
+//int[] nums = [1, 2, 3, 4, 5];
 
-Console.Write("axtaris ucun eded daxil edin: ");
-int target = int.Parse(Console.ReadLine());
+//Console.Write("axtaris ucun eded daxil edin: ");
+//int target = int.Parse(Console.ReadLine());
 
-int indexOfTarget = 0;
-for (int i = 0; i < nums.Length; i++)
-{
-	if (nums[i] == target)
-	{
-		indexOfTarget = i;
-		break;
-	}
-	else if(target > nums[i])
-	{
-		indexOfTarget++;
-	}
-}
+//int indexOfTarget = 0;
+//for (int i = 0; i < nums.Length; i++)
+//{
+//	if (nums[i] == target)
+//	{
+//		indexOfTarget = i;
+//		break;
+//	}
+//	else if(target > nums[i])
+//	{
+//		indexOfTarget++;
+//	}
+//}
 
-Console.WriteLine(indexOfTarget);
+//Console.WriteLine(indexOfTarget);
 
 #endregion
 
